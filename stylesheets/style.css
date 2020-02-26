@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+    font-family: 'Montserrat',
+    sans-serif;
+}
+li {
+    list-style: none;
+}
+
+.header {
+    color: gray;
+    height: 70px;
+    margin: 0 200px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 46px;
+    padding: 1% 2%;
+    color: rgb(35, 104, 65);
+}
+
+.header-list li {
+    float: right;
+    padding: 3% 3%;
+    font-size: 20px;
+    color: gray;
+}
+.row{
+    display: flex;
+}
+.main{
+    margin: 100px;
+}
+.main img{
+    width: 90%;
+    height: 500px;
+    margin: 50px;
+}
+.main h2{
+    font-size: 4em;
+    padding: 20px;
+    color: rgb(35, 104, 65);
+}
+.description{
+    color: gray;
+    margin: 100px;
+}
+.col{
+    width: 50%;
+}
+.title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.text{
+    font-size: 1.3em;
+    padding:0 30px;
+    color: gray;
+}
+.section-title{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    
+}
+.course{
+    margin: 100px;
+    padding:30px;
+    color: gray;
+}
+#footer{
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    height: 200px;
+    bottom: 0;
+    width: 100%;
+}
+.footer-logo{
+    font-size: 56px;
+    padding: 1% 2%;
+    color: rgb(35, 104, 65);
+}
+#learn{
+    padding: 30px;
+}
+button{
+    background-color: rgb(35, 104, 65);
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(27, 85, 52);
+}

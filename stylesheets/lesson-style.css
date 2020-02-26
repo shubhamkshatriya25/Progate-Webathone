@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat',
+        sans-serif;
+    color: gray;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    color: gray;
+    height: 70px;
+    margin: 0 200px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 46px;
+    padding: 1% 2%;
+    color: rgb(35, 104, 65);
+}
+
+.header-list li {
+    float: right;
+    padding: 3% 3%;
+    font-size: 20px;
+    color: gray;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: rgb(35, 104, 65);
+}
+
+.section-desc {
+    font-size: 1.5rem;
+    
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 100%;
+    margin: 10px;
+    background-color: honeydew;
+    padding: 20px;
+}
+
+.topic {
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+}
+.desc{
+    font-size: 1.5em;
+}
+
+.click {
+    background-color: rgb(35, 104, 65);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(27, 85, 52);
+}
+
+.learntrack {
+    margin: 0 100px;
+    padding: 20px;
+    
+}
+
+.ques {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(27, 85, 52);
+}
+
+.ans {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.xx {
+    text-align: left;
+    margin: 50px 100px;
+}
+#l{
+    background-color: rgb(184, 184, 184);
+}
+.y img{
+    padding-top: 20px;
+    background-size: cover;
+    width: 100%;
+}
+#footer {
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    height: 200px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-logo {
+    font-size: 56px;
+    padding: 1% 2%;
+    color: rgb(35, 104, 65);
+}
