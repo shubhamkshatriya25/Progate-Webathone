@@ -89,3 +89,16 @@ button:hover {
     border-radius: 10px;
     margin-left: 5px;
 }
+#footer {
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    height: 200px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-logo {
+    font-size: 56px;
+    padding: 1% 2%;
+    color: rgb(35, 104, 65);
+}
